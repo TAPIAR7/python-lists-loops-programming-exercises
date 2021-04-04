@@ -7,3 +7,10 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def my_function(numb):
+    return 'am' in numb
+
+resulting_names = list(filter(my_function, names))
+
+
+print(resulting_names)
